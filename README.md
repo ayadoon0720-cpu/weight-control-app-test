@@ -2,7 +2,7 @@
 ## 環境構築
 ### dockerビルド
 1. `git clone https://github.com/ayadoon0720-cpu/weight-control-app-test.git`
-2. cd weight-control-app-test
+2. `cd weight-control-app-test`
 3. DockerDesktopアプリを立ち上げる
 4. `docker-compose up -d --build`
 ### Laravel環境構築
