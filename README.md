@@ -8,9 +8,15 @@
 ### Laravel環境構築
 1. `docker-compose exec php bash`
 2. `composer install`
-3. 「.env.example」ファイルを 「.env」ファイルに命名を変更。または、新しく.envファイルを作成
+3. `touch .env`
 4. 「.env」ファイルに以下の環境変数を追加
 ```
+APP_NAME=Laravel
+APP_ENV=local
+APP_KEY=
+APP_DEBUG=true
+APP_URL=http://localhost
+
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
@@ -28,7 +34,7 @@ php artisan migrate
 ```
 10. シーディングの実行
 ```
-php artisan migrate:fresh --seed
+php artisan migrate --seed
 ```
 ## 使用技術(実行環境)
 - PHP8.1.34
