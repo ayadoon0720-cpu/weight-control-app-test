@@ -39,7 +39,7 @@ php artisan migrate:fresh --seed
 ![alt](table_2.png)
 ![alt](table_3.png)
 ## ER図
-![alt](er.png)
+![alt](erd.png)
 ## URL
 - 開発環境：http://localhost/
 - phpMyAdmin：http://localhost:8080/
