@@ -1,0 +1,139 @@
+/* 全体 */
+.weight-log-container {
+    max-width: 1512px;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9F9F9;
+}
+
+.weight-log-card {
+    width: 700px;
+    height: 700px;
+    background: #fff;
+    padding: 15px 10px 5px 10px;
+    margin: 40px auto;
+}
+/* タイトル */
+.weight-log-container h2 {
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+/* ラベル */
+.weight-log-container label {
+    display: block;
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+/* input & textarea 共通 */
+.weight-log-container input,
+.weight-log-container textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #E0DFDE;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+/* textarea */
+.weight-log-container textarea {
+    height: 160px;
+    resize: none;
+}
+
+/* 単位（kg / cal） */
+.input-with-unit {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
+
+.input-short {
+    width: 120px;
+}
+
+.unit {
+    display: inline-block;
+    white-space: nowrap;
+    width: auto;
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #333333;
+}
+
+/* ボタンエリア */
+.button-area {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 14px;
+}
+
+/* 戻るボタン */
+.btn-back {
+    width: 150px;
+    padding: 10px 60px;
+    border-radius: 6px;
+    background: #E0DFDE;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* 更新ボタン（グラデーション） */
+.btn-update {
+    width: 150px;
+    padding: 10px 30px;
+    border-radius: 6px;
+    border: none;
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(90deg, #A3A6E1, #FFABD9);
+}
+
+/* 更新ボタン hover */
+.btn-update:hover {
+    opacity: 0.85;
+}
+
+/* 削除ボタン（ゴミ箱） */
+.btn-delete {
+    margin-top: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #F65A5A;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* エラーメッセージ */
+.error {
+    color: #F65A5A;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+}

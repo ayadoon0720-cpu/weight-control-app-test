@@ -1,0 +1,97 @@
+.register-step2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d9e8ff 0%, #ffd1e8 50%, #ffb2c7 100%);
+    padding: 40px 16px;
+}
+
+.register-step2 .card {
+    width: 580px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 40px;
+    gap: 30px;
+    text-align: center;
+}
+
+.register-step2 .logo {
+    font-family: 'Lora',serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #EC87EF;
+    margin: 0;
+    letter-spacing: 01.em;
+}
+
+.register-step2 .title {
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-family: 'Hiragino Mincho Pro', serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #333333;
+}
+
+.register-step2 .step {
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 300;
+    margin: 18px 0 26px;
+    font-size: 16px;
+    color: #333333;
+}
+.form-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #E0DFDE !important;
+    background-color: #FFFFFF !important;
+    border-radius: 4px;
+    padding: 11px 10px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #f09ad7;
+}
+
+.error {
+    margin-top: 6px;
+    font-size: 12px;
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 300;
+    color: #ff4b4b;
+    /* ←要件：赤 */
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Hiragino Kaku Gothic Pro', serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+
+    background: linear-gradient(90deg, #A3A6E1 0%, #FFABD9 100%);
+    margin-top: 10px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}

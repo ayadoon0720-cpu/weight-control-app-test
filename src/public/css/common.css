@@ -1,0 +1,51 @@
+.admin-header {
+    max-width: 1512px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #CDCDCD;
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.admin-logo {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: #EC87EF;
+}
+
+.admin-header-right {
+    display: flex;
+    width: 319px;
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+.header-btn {
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+    padding: 5px 10px;
+    gap: 10px;
+    background-color: #F7F7F7;
+    font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.logout-btn {
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+    padding: 7px 10px;
+    gap: 10px;
+    background-color: #F7F7F7;
+    font-family: 'Hiragino Kaku Gothic Pro', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
